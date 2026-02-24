@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="flatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="20%" stop-color="#4DA6FF" />  <stop offset="100%" stop-color="#0A244D" /> </linearGradient>
+
+    <g id="starShape">
+      <path d="M 0 -45 Q 0 0 45 0 Q 0 0 0 45 Q 0 0 -45 0 Q 0 0 0 -45 Z" fill="url(#flatGradient)" />
+    </g>
+  </defs>
+
+  <g transform="translate(130, 95)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,5; 0,-5; 0,5" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+      
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="0.5; 0.8; 0.5" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        <animate attributeName="opacity" values="0.6; 1; 0.6" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        
+        <use href="#starShape" />
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(80, 135)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,6; 0,-3; 0,6" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+      
+      <g>
+         <animateTransform attributeName="transform" type="scale" values="0; 0.45; 0" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        <animate attributeName="opacity" values="0; 1; 0" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        
+        <use href="#starShape" />
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(50, 105)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,3; 0,-6; 0,3" dur="3.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+      
+      <g>
+         <animateTransform attributeName="transform" type="scale" values="0; 0.25; 0" dur="3.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        <animate attributeName="opacity" values="0; 0.9; 0" dur="3.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        
+        <use href="#starShape" />
+      </g>
+    </g>
+  </g>
+
+</svg>
