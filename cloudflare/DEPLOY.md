@@ -1,6 +1,7 @@
 # Cloudflare Worker Deploy Guide
 
 This folder is deployable as a Cloudflare Worker project.
+For architecture and future-agent implementation workflow, read `README.md` in this same folder first.
 
 ## 1) Install dependencies
 
